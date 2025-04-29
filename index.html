@@ -55,6 +55,32 @@
     a:hover {
       text-decoration: underline;
     }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      body {
+        flex-direction: column;
+        padding: 1rem;
+      }
+      .container {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .logo {
+        max-width: 120px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      p, code {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
